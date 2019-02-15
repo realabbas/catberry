@@ -112,7 +112,7 @@ class CoolComponent {
 	 * @returns {Promise|undefined} Promise of nothing.
 	 */
 	unbind() {
-		// nothing to do here we have used bind properly
+		// nothing to do here we have used bind properly.
 	}
 }
 
@@ -165,7 +165,7 @@ class CoolStore {
 	 * @returns {Promise<Object>|Object|null|undefined} Response to the component/store.
 	 */
 	handleSomeAction() {
-		// Here you can call this.$context.changed() if you're sure'
+		// Here you can call this.$context.changed() if you're sure'.
 		// that the remote data on the server has been changed.
 		// You can additionally have many handle methods for other actions.
 	};
